@@ -88,7 +88,7 @@ CRUDINI='/usr/bin/crudini'
     $CRUDINI --set /etc/neutron/plugins/ml2/ml2_conf.ini agent l2_population True
     $CRUDINI --set /etc/neutron/plugins/ml2/ml2_conf.ini agent arp_responder True
     $CRUDINI --set /etc/neutron/plugins/ml2/ml2_conf.ini agent prevent_arp_spoofing True
-    $CRUDINI --set /etc/neutron/plugins/ml2/ml2_conf.ini enable_distributed_routing True
+    $CRUDINI --set /etc/neutron/plugins/ml2/ml2_conf.ini agent enable_distributed_routing True
     
     # 清空/etc/neutron/plugins/openvswitch/ovs_neutron_plugin.ini
     # grep -i debian /etc/issue >/dev/null 2>/dev/null
